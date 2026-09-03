@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  parallel="tests" name="Suite">
+  <test  name="Testrunner1">
+  <parameter name="bro" value="chrome"/>
+  <classes>
+      
+       <class name="typesOfExecution.Demo4Test"/>
+  </classes>
+  </test>
+  
+  <test  name="Testrunner2">
+  <parameter name="bro" value="Edge"/>
+<classes>
+      
+       <class name="typesOfExecution.Demo4Test"/>
+  </classes>
+  </test>
+  <test  name="Testrunner3">
+    <parameter name="bro" value="firefox"/>
+        <classes>
+    
+       <class name="typesOfExecution.Demo4Test"/>
+  </classes>
+  </test>
+  
+  
+   <!-- Test -->
+</suite> <!-- Suite -->
