@@ -13,7 +13,7 @@ public class tagName {
 		driver.manage().window().maximize();
 		driver.get("https://tutorialsninja.com/demo");
 		List<WebElement> links =driver.findElements(By.tagName("a"));
-		System.out.println("totalnumber of links in ninjademois---"+links.size());
+		System.out.println("totalnumbers of links in ninjademois---"+links.size());
 		driver.get("https://demoapps.qspiders.com/ui?scenario=1");
 		List<WebElement> linksQSP =driver.findElements(By.tagName("a"));
 		System.out.println("totalnumber of links in DemoappsQSP----"+linksQSP.size());
