@@ -10,7 +10,7 @@ public class gmailgenration {
   System.out.println(email);
   
   ///toexcute this add depencecy in pom.xml>>>net.datafaker
-  Faker faker = new Faker();
+  Faker faker = new Faker();//
 
   String email1 = faker.internet().emailAddress();
   System.out.println(email1);
